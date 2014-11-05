@@ -1,0 +1,16 @@
+Most of my description is present in the comments section of my code. I created a 2048 clone with features such as a timer, power ups and high scores.
+I imported ArrayList and Preferences in GameCourt in order to create them.
+
+I created a basic 2048 first. I used the squares given at start and modified them to create grids and panels and etc. The movement keys were trickier
+as the logic behind them had to be well thought out. I have a square class, which creates the display. As can be seen from the comments, the square 
+class is used a total of 4 times to create four different squares.
+
+I also have a game class. This was similar to the one provided. However, I added buttons to it as a feature which uses power ups to do different things 
+(the things are also explained in the comments). There is also a button to help explain the features ("WHAT!"). 
+
+Finally, I have a GameCourt class. This basically controls the whole game. I make all my changes here and update timers, high scores through GameCourt.java.
+When called, it initializes the grid, and then the game begins!
+
+As I was unsure as to what exactly the readme should hold, I have made sure to comment every part of my code to make sure everything is easy to understand.
+
+The most basic part of my game is based on the game provided.
